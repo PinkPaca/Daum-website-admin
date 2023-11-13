@@ -1,0 +1,85 @@
+$primary: #3d5afe;
+
+* {
+  font-family: 'Nanum Myeongjo', serif;
+  font-family: 'Nanum Gothic', sans-serif;
+  cursor: default;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul{
+  margin: 0px;
+  padding-inline-start: 0px;
+}
+
+li {
+  list-style-type: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+.navbar{
+  margin: 0;
+  padding: 32px;
+  width: 250px;
+  height: 100%;
+  border-radius: 32px;
+  background-color: $primary; 
+  color: white;
+  display:inline-block;
+  a{
+    display: flex;
+    padding-right: 36px;
+
+    img{
+      width: 32px;
+      height: 100%;
+    }
+
+    p{
+      font-size: 32px;
+      font-weight: bold;
+      margin: 4px;
+      margin-bottom: 36px;
+    }
+  }
+}
+
+.menu {
+  margin: 16px;
+  font-size: 24px;
+  font-weight: bold;
+  li{
+    margin: 8px 0px;
+  }
+  button {
+    margin: 8px 0px;
+    padding: 0px;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: start;
+  }
+}
+
+.submenu{
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.dropdown{
+  display: none;
+  margin-left: 8px;
+
+}
+
+.show{
+  display: block;
+}
